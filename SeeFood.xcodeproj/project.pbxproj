@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		6E0E4EE021D449060081F69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E4EDF21D449060081F69B /* AppDelegate.swift */; };
 		6E0E4EE221D449060081F69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E4EE121D449060081F69B /* ViewController.swift */; };
-		6E0E4EE521D449060081F69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0E4EE321D449060081F69B /* Main.storyboard */; };
 		6E0E4EE721D449070081F69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0E4EE621D449070081F69B /* Assets.xcassets */; };
 		6E0E4EEA21D449070081F69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0E4EE821D449070081F69B /* LaunchScreen.storyboard */; };
+		6E0E4EF221D44A170081F69B /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6E0E4EF121D44A160081F69B /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E0E4EDC21D449060081F69B /* SeeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0E4EDF21D449060081F69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E0E4EE121D449060081F69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E0E4EE421D449060081F69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E0E4EE621D449070081F69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0E4EE921D449070081F69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E0E4EEB21D449070081F69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0E4EF121D44A160081F69B /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				6E0E4EDF21D449060081F69B /* AppDelegate.swift */,
 				6E0E4EE121D449060081F69B /* ViewController.swift */,
-				6E0E4EE321D449060081F69B /* Main.storyboard */,
 				6E0E4EE621D449070081F69B /* Assets.xcassets */,
 				6E0E4EE821D449070081F69B /* LaunchScreen.storyboard */,
 				6E0E4EEB21D449070081F69B /* Info.plist */,
+				6E0E4EF121D44A160081F69B /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -124,7 +124,6 @@
 			files = (
 				6E0E4EEA21D449070081F69B /* LaunchScreen.storyboard in Resources */,
 				6E0E4EE721D449070081F69B /* Assets.xcassets in Resources */,
-				6E0E4EE521D449060081F69B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0E4EE221D449060081F69B /* ViewController.swift in Sources */,
+				6E0E4EF221D44A170081F69B /* Inceptionv3.mlmodel in Sources */,
 				6E0E4EE021D449060081F69B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6E0E4EE321D449060081F69B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E0E4EE421D449060081F69B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6E0E4EE821D449070081F69B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
